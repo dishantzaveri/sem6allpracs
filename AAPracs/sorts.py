@@ -30,7 +30,7 @@ def partition(arr,low,high):
 def quickSort(arr,low,high): 
    if low < high:
 # index
-     pi = partitionn(arr,low,high) # sort the partitions quickSort(arr, low, pi-1) quickSort(arr, pi+1, high)
+     pi = partition(arr,low,high) # sort the partitions quickSort(arr, low, pi-1) quickSort(arr, pi+1, high)
  
 
 # main
