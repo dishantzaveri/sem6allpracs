@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "splint.C": "cpp"
+        "splint.C": "cpp",
+        "randomizedqs.C": "cpp"
     }
 }
